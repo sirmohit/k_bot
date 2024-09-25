@@ -41,6 +41,7 @@ def user_input():
     # Hide the welcome message once the user asks a question
     st.session_state.welcome_message_shown = True
 
+
 # Helper function to get the base64 encoding of the image
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
